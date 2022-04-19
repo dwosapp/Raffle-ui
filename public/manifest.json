@@ -1,0 +1,9 @@
+{
+  "name": "DWOS Raffle System",
+  "short_name": "Raffle",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
