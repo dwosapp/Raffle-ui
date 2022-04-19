@@ -224,7 +224,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Doodle Women of Solana. All rights reserved.
         </span>
         <span>
-          <a style={{ textDecoration: 'underline', color: 'black' }} href="https://github.com/dwosapp/raffle-frontend">This is an Open-Source frontend created with &#10084; by DWOS Team</a>
+          <a style={{ textDecoration: 'underline', color: 'black' }} href="https://github.com/dwosapp/Raffle-ui">This is an Open-Source frontend created with &#10084; by DWOS Team</a>
         </span>
       </Bottom>
     </Section>
