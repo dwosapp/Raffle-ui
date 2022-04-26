@@ -13,6 +13,7 @@ import FilterBar from './components/FilterBar';
 import { DeviceType } from '../../providers/ViewportProvider';
 import Footer from '../../components/layout/Footer';
 import Banner from '../../components/layout/Banner/Banner';
+import Spacer from '../../components/Spacer';
 
 const ExploreRafflesScreen: FC = () => {
   const { device } = useViewport();
@@ -105,9 +106,9 @@ const ExploreRafflesScreen: FC = () => {
             ))}
         </Grid>
       ) : (
-        <Typography variant="h4" className={classes.mainContent} style={{ color: '#6435C9' }}>
-          No Raffle Pools to display.
-        </Typography>
+        <><Typography variant="h4" className={classes.mainContent} style={{ color: '#6435C9' }}>
+            No Raffle Pools to display.
+          </Typography><Spacer height={'200px'} /></>
       )}
     </>
   );

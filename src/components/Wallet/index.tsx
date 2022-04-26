@@ -22,7 +22,7 @@ enum Extension {
 const extendedClusterApiUrl = (network: WalletAdapterNetwork | Extension) => {
   return network === Extension.Localnet
     ? (process.env.REACT_APP_RPC_ENDPOINT as string) ||
-        'https://ssc-dao.genesysgo.net/'
+        'https://morning-wispy-frog.solana-mainnet.quiknode.pro/9e52bb793f7bf8e43a6739d06cae497ef3737aae/'
     : clusterApiUrl(network);
 };
 

@@ -14,7 +14,6 @@ export const useStyles = makeStyles<Theme>((theme: Theme) => ({
     width: '100%',
     backgroundColor: '#6435C9',
     fontFamily: "Sora",
-  
     '&:hover': {
       backgroundColor: '#6435C9',
     },
