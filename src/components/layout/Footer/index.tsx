@@ -173,7 +173,7 @@ const Footer = () => {
       >
         <Rarity />
       </a>
-      <a href="#" target='_blank' 
+      <a href="https://swap.dwos.app/" target='_blank' 
       rel="noopener noreferrer"
       aria-label='swap'
       >
