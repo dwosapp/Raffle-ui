@@ -16,7 +16,7 @@ const testWhitelist = new Map<string, RaffleMetaData>([
   ],
   [
     '5JgAgpWnd9wNcZKwhJvTEbnmZwCEMLsu1LvbCfXBwFvs',
-    { name: 'x10 your $t',
+    { name: 'x100 your $t',
     overviewImageUri: '/resources/tdwos.png',
     },
   ],
