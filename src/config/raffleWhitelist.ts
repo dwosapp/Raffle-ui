@@ -12,7 +12,7 @@ const testWhitelist = new Map<string, RaffleMetaData>([
   ],
   [
     'F3Kb2ExBBZ4UnaxBjAXT8mbS6nrAZXWZMyuMhRJvseDB',
-    { name: 'Moodies #129' },
+    { name: 'PSY Network | PlanetZ #4214' },
   ],
   [
     '5JgAgpWnd9wNcZKwhJvTEbnmZwCEMLsu1LvbCfXBwFvs',
