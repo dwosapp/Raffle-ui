@@ -35,6 +35,15 @@ const tokenRegistry = {
     decimals: 4,
     logoURI: '/resources/gdwos.png',
     tags: []
+  },
+  'SKu11EypaFU3gvr8VSAbi13zEC2CPvqbz9s83N3tWHM': {
+    chainId: 101,
+    address: 'SKu11EypaFU3gvr8VSAbi13zEC2CPvqbz9s83N3tWHM',
+    symbol: 'SKULL',
+    name: 'Skeleton Crew',
+    decimals: 0,
+    logoURI: '/resources/skull.png',
+    tags: []
   }
 };
 
