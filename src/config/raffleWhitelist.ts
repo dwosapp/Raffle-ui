@@ -30,6 +30,16 @@ const testWhitelist = new Map<string, RaffleMetaData>([
     'E8ABLssWnJ4GDMSJqt3vPyqehFSsDCvEoVvSCVzMR4ag',
     { name: 'Moodies #129' },
   ],
+  [
+    '85jUSBeKw9wV3KgNydLchGGHvBZF4eMREVBJV8ssWfUN',
+    { name: 'x100 your $t (2)',
+    overviewImageUri: '/resources/tdwos.png',
+    },
+  ],
+  [
+    'BwAhxPpBmwMDiYXN4goz7TSyRRckNsFkHw3JxKzDp5pM',
+    { name: 'DWOS Gen-1 #186 and $t' },
+  ],
 ]);
 
 const prodWhitelist = new Map<string, RaffleMetaData>([
