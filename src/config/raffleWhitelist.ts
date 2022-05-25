@@ -40,6 +40,10 @@ const testWhitelist = new Map<string, RaffleMetaData>([
     'BwAhxPpBmwMDiYXN4goz7TSyRRckNsFkHw3JxKzDp5pM',
     { name: 'DWOS Gen-1 #186 and $t' },
   ],
+  [
+    'HK4TAg4Txs34FxxkZRtZf8NnfW8JM9U9rJqdXx11VqDU',
+    { name: 'Double Jump #942 and $t' },
+  ],
 ]);
 
 const prodWhitelist = new Map<string, RaffleMetaData>([
