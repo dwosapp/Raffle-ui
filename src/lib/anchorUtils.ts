@@ -44,14 +44,20 @@ export const customProviderFactory = (
     tx.feePayer = anchorWallet?.publicKey;
     tx.recentBlockhash = (await connection.getRecentBlockhash()).blockhash;
 
-    await anchorWallet?.signTransaction(tx);
+    let signedTx = await anchorWallet?.signTransaction(tx);
+    if (signedTx === undefined) {
+      return '';
+    }
+    
     signers
       .filter((s): s is Signer => s !== undefined)
       .forEach((kp) => {
-        tx.partialSign(kp);
+        if (signedTx) {
+          signedTx.partialSign(kp);
+        }
       });
 
-    const rawTx = tx.serialize();
+    const rawTx = signedTx.serialize();
     const signature = await connection.sendRawTransaction(rawTx);
 
     // Await for 30 seconds
